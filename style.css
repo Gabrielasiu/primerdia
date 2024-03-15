@@ -1,7 +1,53 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif
 }
-header, footer{
-    background-color: green;
-    
+
+header {
+    height: 40px;
+ 
+  text-align: right;
+  width: 940px;
+  border: 5px solid rgb(229, 196, 202);
+background-color: #276a27;
+
 }
+h1 {
+  text-align: center; 
+  color: black;
+
+ 
+}
+
+a.elementos {
+ 
+    display: inline;
+   color: white
+}
+ footer{
+    text-align: center;
+    background-color: #276a27;
+    color: white;
+    width: 940px;
+    height: 50px;
+    margin: 0;
+
+ }
+ 
+ .foto {
+    padding: 265px;
+ }
+
+ p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+ }
+ h2{
+    text-align: center;    
+    background-color: rgb(229, 196, 202);
+    height: 150px ;
+    border: 5px solid grey;
+    padding: 10px;
+    margin: 0px;
+    width: 900px;
+ }
