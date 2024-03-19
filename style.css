@@ -3,23 +3,24 @@
 }
 
 header {
-    height: 30px;
+padding-block: 8px;
   text-align: right;
   width: 100%;
-  border: 3px solid rgb(229, 196, 202);
-background-color: #276a27;
-
+background-color: #63ac63;
 }
+
+
 h1 {
   text-align: center; 
   color: black;
 }
 
-.elementos {
+.elemento {
  
-    display: inline;
+    display: inline-block;
    color: white;
-   text-decoration: none
+   text-decoration: none;
+   margin-inline: 5px;
 }
  footer{
     text-align: center;
@@ -30,6 +31,7 @@ h1 {
     margin: 0;
 
  }
+ 
  
  .foto {
    
@@ -49,10 +51,11 @@ h1 {
     border: 5px solid grey;
     padding: 0px;
     margin: 0px;
-    width: 100%;
+    color: white;
+    border-radius: 25px;
+  
  }
 
- 
 .github {
    text-align: right;
    display:block;
@@ -64,3 +67,4 @@ h1 {
 .portafolio {
    display: inline;
 }
+
